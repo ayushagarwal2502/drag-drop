@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1>Number Table </h1><br><br>
+
+  <table>
+    <tr>
+        <th> </th>
+        <th> C1</th>
+        <th> C2</th>
+        <th> C3</th>
+    </tr>
+    <tr>
+        <td>R1</td>  
+        <td class="item"><div class="box" id="rec1" draggable="true">  
+            100
+            </div></td> 
+        <td class="item"><div class="box" id="rec2" draggable="true">  
+            200
+            </div></td> </td>
+        <td class="item"><div  class="box" id="rec3" draggable="true">  
+            300
+            </div></td> </td>
+      </tr>
+      <tr>
+        <td>R2</td>
+        <td class="item"><div class="box" id="rec4" draggable="true">  
+            400
+            </div></td> </td>
+        <td class="item"><div class="box" id="rec5" draggable="true">  
+            500
+            </div></td> </td>
+        <td class="item"><div class="box" id="rec6" draggable="true">  
+            600
+            </div></td> </td>
+      </tr>
+      <tr>
+        <td>R3</td>
+        <td class="item"><div class="box" id="rec7" draggable="true">  
+            700
+            </div></td> </td>
+        <td class="item"><div class="box" id="rec8" draggable="true">  
+            800
+            </div></td> </td>
+        <td class="item"><div class="box" id="rec9" draggable="true">  
+            900
+            </div></td> </td>
+      </tr>
+  </table>
+  <div class="container">
+  <button onclick="handleUndo()">Undo</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
